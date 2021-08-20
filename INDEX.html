@@ -1,0 +1,235 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Website Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div id="container">
+        <div id="navbar">
+            <ul>
+                <li><a href="facebook.com">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <div id="logo">
+                <img src="Images/traffic-jam.png" alt="">
+            </div>
+            <ol>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Sign up/Login</a></li>
+            </ol>
+        </div>
+    
+        <div id="sideImg">
+            <img src="Images/ferrari.png" alt="">
+        </div>
+        <div id="contentSection">
+            <h2>ABI CARS</h2>
+            <h1>FERRARI</h1>
+            <p>awesome red, hal and general, recital, general, sleek red, tiny metal, slick red, new yellow, noisy old, more anxious, elegant black, recital</p>
+            <button>BUY NOW</button>
+            <img src="Images/logo.png" alt="">
+            <img src="Images/traffic-jam.png" alt="">
+
+            <h2>__________</h2>
+            <h1>LAMBORGINI</h1>
+            <p>Ferruccio Lamborghini, an Italian manufacturing magnate, founded Automobili Ferruccio Lamborghini S.p.A. in 1963 to compete with Ferrari. ... Lamborghini currently produces the V12-powered Aventador and the V10-powered Huracán, along with the Urus SUV powered by a twin-turbo V8 engine</p>
+            <button>BUY NOW</button>
+            <img src="Images/logo.png" alt="">
+
+
+            <h2>__________</h2>
+            <h1>JAGUAR</h1>
+            <p>Jaguar Cars is a brand of automobiles made by Jaguar Land Rover. This is a British car builder, owned by the Indian builder Cans Tata Motors since the beginning of 2008. It was established in 1922 by William Lyons. It was renamed Jaguar in 1935</p>
+            <button>BUY NOW</button>
+            <img src="Images/logo.png" alt="">
+
+            <h2>__________</h2>
+            <button>CLICK HERE FOR MORE CARS</button>
+
+            <h2>_____________</h2>
+            <h1>BY ABISHEK T</h1>
+            <h2>CONTACT DETAILS</h2>
+            <h1>PHONE NUM: 9000000000</h1>
+            <h1>EMAIL: ABICARS@GMAIL.COM</h1>
+
+            <h2>___________</h2>
+            <h1>LOG IN</h1>
+            <div class="container my-4">    
+                <p><strong>Detailed documentation and more examples you can find in our <a
+                      href="https://mdbootstrap.com/docs/standard/forms/overview/" target="_blank">Forms Docs</a> </p>
+            
+                <hr>
+                    <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">                    
+                        <div class="panel panel-info" >
+                                <div class="panel-heading">
+                                    <div class="panel-title">Sign In</div>
+                                    <div style="float:right; font-size: 80%; position: relative; top:-10px"><a href="#">Forgot password?</a></div>
+                                </div>     
+            
+                                <div style="padding-top:30px" class="panel-body" >
+            
+                                    <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+                                        
+                                    <form id="loginform" class="form-horizontal" role="form">
+                                                
+                                        <div style="margin-bottom: 25px" class="input-group">
+                                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                                    <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="username or email">                                        
+                                                </div>
+                                            
+                                        <div style="margin-bottom: 25px" class="input-group">
+                                                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                                    <input id="login-password" type="password" class="form-control" name="password" placeholder="password">
+                                                </div>
+                                                
+            
+                                            
+                                        <div class="input-group">
+                                                  <div class="checkbox">
+                                                    <label>
+                                                      <input id="login-remember" type="checkbox" name="remember" value="1"> Remember me
+                                                    </label>
+                                                  </div>
+                                                </div>
+            
+            
+                                            <div style="margin-top:10px" class="form-group">
+                                                <!-- Button -->
+            
+                                                <div class="col-sm-12 controls">
+                                                  <a id="btn-login" href="#" class="btn btn-success">Login  </a>
+                                                  <a id="btn-fblogin" href="#" class="btn btn-primary">Login with Facebook</a>
+            
+                                                </div>
+                                            </div>
+            
+            
+                                            <div class="form-group">
+                                                <div class="col-md-12 control">
+                                                    <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%" >
+                                                        Don't have an account! 
+                                                    <a href="#" onClick="$('#loginbox').hide(); $('#signupbox').show()">
+                                                        Sign Up <a href="https://bbbootstrap.com">Here</a>
+                                                    </a>
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                        </form>     
+            
+            
+            
+                                    </div>                     
+                                </div>  
+                    </div>
+                    <div id="signupbox" style="display:none; margin-top:50px" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                                <div class="panel panel-info">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">Sign Up</div>
+                                        <div style="float:right; font-size: 85%; position: relative; top:-10px"><a id="signinlink" href="#" onclick="$('#signupbox').hide(); $('#loginbox').show()">Sign In</a></div>
+                                    </div>  
+                                    <div class="panel-body" >
+                                        <form id="signupform" class="form-horizontal" role="form">
+                                            
+                                            <div id="signupalert" style="display:none" class="alert alert-danger">
+                                                <p>Error:</p>
+                                                <span></span>
+                                            </div>
+                                                
+                                            
+                                              
+                                            <div class="form-group">
+                                                <label for="email" class="col-md-3 control-label">Email</label>
+                                                <div class="col-md-9">
+                                                    <input type="text" class="form-control" name="email" placeholder="Email Address">
+                                                </div>
+                                            </div>
+                                                
+                                            <div class="form-group">
+                                                <label for="firstname" class="col-md-3 control-label">First Name</label>
+                                                <div class="col-md-9">
+                                                    <input type="text" class="form-control" name="firstname" placeholder="First Name">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="lastname" class="col-md-3 control-label">Last Name</label>
+                                                <div class="col-md-9">
+                                                    <input type="text" class="form-control" name="lastname" placeholder="Last Name">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="password" class="col-md-3 control-label">Password</label>
+                                                <div class="col-md-9">
+                                                    <input type="password" class="form-control" name="passwd" placeholder="Password">
+                                                </div>
+                                            </div>
+                                                
+                                            <div class="form-group">
+                                                <label for="icode" class="col-md-3 control-label">Invitation Code</label>
+                                                <div class="col-md-9">
+                                                    <input type="text" class="form-control" name="icode" placeholder="">
+                                                </div>
+                                            </div>
+            
+                                            <div class="form-group">
+                                                <!-- Button -->                                        
+                                                <div class="col-md-offset-3 col-md-9">
+                                                    <button id="btn-signup" type="button" class="btn btn-info"><i class="icon-hand-right"></i> &nbsp Sign Up</button>
+                                                    <span style="margin-left:8px;">or</span>  
+                                                </div>
+                                            </div>
+                                            
+                                            <div style="border-top: 1px solid #999; padding-top:20px"  class="form-group">
+                                                
+                                                <div class="col-md-offset-3 col-md-9">
+                                                    <button id="btn-fbsignup" type="button" class="btn btn-primary"><i class="icon-facebook"></i>   Sign Up with Facebook</button>
+                                                </div>                                           
+                                                    
+                                            </div>
+                                            
+                                            
+                                            
+                                        </form>
+                                     </div>
+                                </div>
+            
+                           
+                           
+                            
+                     </div> 
+                </div>
+            </div>  
+            
+
+
+            
+
+
+
+
+                  
+
+            
+           
+           
+            
+
+        </div> 
+    
+            
+    </div>
+    
+       
+        
+   
+</body>
+</html>
